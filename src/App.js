@@ -54,7 +54,7 @@ function App() {
 
         <div className="content d-flex">
           {/* Sidebar  */}
-          <div className="sidebar">
+          <div title="sidebar" aria-label="side bar" className="sidebar">
             <h3>Columns</h3>
             <hr></hr>
             {Columns.length > 0
